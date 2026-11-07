@@ -3,7 +3,7 @@ import os
 import random
 from PIL import Image, ImageTk 
 
-contador = 0
+contador = 1
 
 #Funcion para obtener la ruta de los recursos 
 def rescourse_path(relative_path):
@@ -50,8 +50,8 @@ def izquierda():
     mover(cuerpo, -20, 0)
 
 def derecha():
-    mover(cabeza, 20, 0)
-    mover(cuerpo, 20, 0)
+    mover(cabeza, 30, 0)
+    mover(cuerpo, 30, 0)
 
 #Configurar teclas
 wn.listen()
